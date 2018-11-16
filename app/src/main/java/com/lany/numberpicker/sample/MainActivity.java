@@ -1,22 +1,18 @@
 package com.lany.numberpicker.sample;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.util.Log;
-
+import android.support.v7.app.AppCompatActivity;
 import com.lany.numberpicker.NumberPicker;
-
 import java.util.ArrayList;
 import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
-    private NumberPicker picker;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        picker = findViewById(R.id.numberPicker);
+        NumberPicker picker = findViewById(R.id.numberPicker);
         //不可编辑
         picker.setDescendantFocusability(NumberPicker.FOCUS_BLOCK_DESCENDANTS);
         List<String> values = new ArrayList<>();

@@ -16,7 +16,7 @@
 ## Step 2. Add the dependency
 
     dependencies {
-            implementation 'com.github.lany192:NumberPicker:1.0.1'
+            implementation 'com.github.lany192:NumberPicker:1.0.2'
     }
     
 ## Step 3 XML
@@ -31,6 +31,8 @@
         app:selectionDivider="@color/dividerColor"
         app:selectionDividerHeight="1px"
         app:selectionDividersDistance="40dp"
+        app:selectionTextSize="16sp"
+        app:selectionTextColor="@android:color/holo_red_light"
         app:solidColor="@android:color/transparent" />
         
 ## Step 4 Code

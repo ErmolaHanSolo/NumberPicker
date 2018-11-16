@@ -17,6 +17,8 @@
         app:selectionDivider="@color/dividerColor"
         app:selectionDividerHeight="1px"
         app:selectionDividersDistance="40dp"
+        app:selectionTextSize="16sp"
+        app:selectionTextColor="@android:color/holo_red_light"
         app:solidColor="@android:color/transparent" />
 
 </FrameLayout>
