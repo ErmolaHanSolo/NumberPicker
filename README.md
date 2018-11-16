@@ -16,7 +16,7 @@
 ## Step 2. Add the dependency
 
     dependencies {
-            implementation 'com.github.lany192:NumberPicker:1.0.0'
+            implementation 'com.github.lany192:NumberPicker:1.0.1'
     }
     
 ## Step 3 XML
