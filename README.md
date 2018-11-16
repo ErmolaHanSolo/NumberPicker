@@ -19,7 +19,7 @@
             implementation 'com.github.lany192:NumberPicker:1.0.0'
     }
     
-## Used
+## Step 3 XML
 
     <com.lany.numberpicker.NumberPicker
         android:id="@+id/numberPicker"
@@ -33,7 +33,7 @@
         app:selectionDividersDistance="40dp"
         app:solidColor="@android:color/transparent" />
         
-## Code
+## Step 4 Code
 
         NumberPicker picker = findViewById(R.id.numberPicker);
         //不可编辑
