@@ -1280,12 +1280,13 @@ public class NumberPicker extends LinearLayout {
     }
 
     /**
-     * 新增设置显示内容数据，防止出现空白
+     * 设置显示内容数据
      */
-    public void setShowValues(List<String> values) {
-        String names[] = {"  "};
-        setDisplayedValues(names);
+    public void setValues(List<String> values) {
         setDisplayedValues(null);
+        if (values.size() > 0) {
+            setMaxValue(values.size() - 1);
+        }
         String[] items = new String[values.size()];
         for (int i = 0; i < values.size(); i++) {
             items[i] = values.get(i);

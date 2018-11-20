@@ -19,10 +19,7 @@ public class MainActivity extends AppCompatActivity {
         for (int i = 0; i < 99; i++) {
             values.add("测试" + i);
         }
-        picker.setShowValues(values);
-        picker.setMaxValue(values.size() - 1);
-        picker.setMinValue(0);
-
+        picker.setValues(values);
         picker.setOnValueChangedListener(new NumberPicker.OnValueChangeListener() {
 
             @Override
