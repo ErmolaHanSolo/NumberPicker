@@ -512,6 +512,18 @@ public class NumberPicker extends LinearLayout {
         }
     }
 
+    public void setSelectionDivider(Drawable selectionDivider) {
+        this.mSelectionDivider = selectionDivider;
+    }
+
+    public void setSelectionDividerHeight(int selectionDividerHeight) {
+        this.mSelectionDividerHeight = selectionDividerHeight;
+    }
+
+    public void setSelectionDividersDistance(int selectionDividersDistance) {
+        this.mSelectionDividersDistance = selectionDividersDistance;
+    }
+
     public static final Formatter getTwoDigitFormatter() {
         return sTwoDigitFormatter;
     }
