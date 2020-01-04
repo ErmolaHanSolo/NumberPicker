@@ -11,7 +11,6 @@ import android.graphics.Rect;
 import android.graphics.drawable.Drawable;
 import android.os.Build;
 import android.os.Bundle;
-import android.support.annotation.Nullable;
 import android.text.InputFilter;
 import android.text.InputType;
 import android.text.Spanned;
@@ -359,12 +358,12 @@ public class NumberPicker extends LinearLayout {
         inti(null);
     }
 
-    public NumberPicker(Context context, @Nullable AttributeSet attrs) {
+    public NumberPicker(Context context, AttributeSet attrs) {
         super(context, attrs);
         inti(attrs);
     }
 
-    public NumberPicker(Context context, @Nullable AttributeSet attrs, int defStyleAttr) {
+    public NumberPicker(Context context, AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
         inti(attrs);
     }
