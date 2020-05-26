@@ -17,12 +17,12 @@
 ## Step 2. Add the dependency
 
     dependencies {
-            implementation 'com.github.lany192:NumberPicker:1.0.3'
+            implementation 'com.github.lany192:NumberPicker:latest'
     }
     
 ## Step 3 XML
 
-    <com.lany.numberpicker.NumberPicker
+    <com.github.lany192.picker.NumberPicker
         android:id="@+id/numberPicker"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

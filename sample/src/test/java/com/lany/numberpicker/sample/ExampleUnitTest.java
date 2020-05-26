@@ -1,4 +1,4 @@
-package com.github.lany192.picker;
+package com.github.lany192.picker.sample;
 
 import org.junit.Test;
 

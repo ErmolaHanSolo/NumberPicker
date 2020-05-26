@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="32dp"
+    tools:context=".MainActivity">
+
+    <com.github.lany192.picker.NumberPicker
+        android:id="@+id/numberPicker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        app:internalMaxHeight="130dp"
+        app:internalMinWidth="150dp"
+        app:selectionDivider="@color/dividerColor"
+        app:selectionDividerHeight="1px"
+        app:selectionDividersDistance="40dp"
+        app:selectionTextColor="@android:color/holo_red_light"
+        app:selectionTextSize="16sp"
+        app:solidColor="@android:color/transparent" />
+
+    <com.github.lany192.picker.NumberPicker
+        android:id="@+id/numberPicker2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        app:internalMaxHeight="130dp"
+        app:internalMinWidth="150dp"
+        app:selectionDivider="@android:color/black"
+        app:selectionDividerHeight="1dp"
+        app:selectionDividersDistance="40dp"
+        app:selectionTextColor="@android:color/holo_green_light"
+        app:selectionTextSize="26sp"
+        app:solidColor="@android:color/transparent" />
+
+    <com.github.lany192.picker.NumberPicker
+        android:id="@+id/numberPicker3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        app:internalMaxHeight="130dp"
+        app:internalMinWidth="150dp"
+        app:selectionDivider="@android:color/holo_red_light"
+        app:selectionDividerHeight="2dp"
+        app:selectionDividersDistance="40dp"
+        app:selectionTextColor="@android:color/black"
+        app:selectionTextSize="18sp"
+        app:solidColor="@android:color/transparent" />
+
+    <com.github.lany192.picker.NumberPicker
+        android:id="@+id/numberPicker4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        app:internalMaxHeight="130dp"
+        app:internalMinWidth="150dp"
+        app:selectionDivider="@color/dividerColor"
+        app:selectionDividerHeight="1px"
+        app:selectionDividersDistance="40dp"
+        app:selectionTextColor="@android:color/black"
+        app:selectionTextSize="16sp"
+        app:solidColor="@android:color/transparent" />
+</LinearLayout>
